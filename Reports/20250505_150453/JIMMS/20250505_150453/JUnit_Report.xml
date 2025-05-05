@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="JIMMS" time="97.342" tests="4" failures="0" errors="0">
+   <testsuite name="JIMMS" tests="4" failures="0" errors="0" time="97.342" skipped="0" timestamp="05-05-2025T15:05:03" hostname="Cadangan 2 - DESKTOP-8FOE31T" id="Test Suites/JIMMS">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Cadangan 2\\git\\Katalon_JIMMS\\Reports\\20250505_150453\\JIMMS\\20250505_150453"/>
+         <property name="logFiles" value="C:\\Users\\Cadangan 2\\git\\Katalon_JIMMS\\Reports\\20250505_150453\\JIMMS\\20250505_150453\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Cadangan 2 - DESKTOP-8FOE31T"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="10.1.1.0"/>
+         <property name="browser" value="Chrome 133.0.6943.127"/>
+         <property name="hostAddress" value="172.29.235.41"/>
+         <property name="sessionId" value="3707668fa100990d526770d9c1c186b8"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC01-Login success with user and password valid" time="19.485" classname="Test Cases/TC01-Login success with user and password valid" status="PASSED">
+         <system-out><![CDATA[05-05-2025T15:05:04 - [TEST_CASE][PASSED] - Test Cases/TC01-Login success with user and password valid: Test Cases/TC01-Login success with user and password valid
+
+05-05-2025T15:05:04 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-05-2025T15:05:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+05-05-2025T15:05:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-05-2025T15:05:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-05-2025T15:05:11 - [TEST_STEP][PASSED] - navigateToUrl("https://test-qa.jasamarga.co.id/login"): Navigate to 'https://test-qa.jasamarga.co.id/login' successfully
+
+05-05-2025T15:05:13 - [MESSAGE][PASSED] - Navigate to 'https://test-qa.jasamarga.co.id/login' successfully
+
+05-05-2025T15:05:13 - [TEST_STEP][PASSED] - setText(findTestObject("Page_JIMMS - Sign In/input_Username"), "admin"): Text 'admin' is set on object 'Object Repository/Page_JIMMS - Sign In/input_Username'
+
+05-05-2025T15:05:14 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_JIMMS - Sign In/input_Username'
+
+05-05-2025T15:05:15 - [TEST_STEP][PASSED] - setText(findTestObject("Page_JIMMS - Sign In/input_Password"), "123"): Text '123' is set on object 'Object Repository/Page_JIMMS - Sign In/input_Password'
+
+05-05-2025T15:05:15 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Page_JIMMS - Sign In/input_Password'
+
+05-05-2025T15:05:16 - [TEST_STEP][PASSED] - click(findTestObject("Page_JIMMS - Sign In/button_Login")): Object: 'Object Repository/Page_JIMMS - Sign In/button_Login' is clicked on
+
+05-05-2025T15:05:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JIMMS - Sign In/button_Login' is clicked on
+
+05-05-2025T15:05:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_JIMMS - Dashboard/img_JIMMS"), 5): Object 'Object Repository/Page_JIMMS - Dashboard/img_JIMMS' is present
+
+05-05-2025T15:05:20 - [MESSAGE][PASSED] - Object 'Object Repository/Page_JIMMS - Dashboard/img_JIMMS' is present
+
+05-05-2025T15:05:20 - [TEST_STEP][PASSED] - click(findTestObject("Page_JIMMS - Dashboard/button__profile")): Object: 'Object Repository/Page_JIMMS - Dashboard/button__profile' is clicked on
+
+05-05-2025T15:05:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JIMMS - Dashboard/button__profile' is clicked on
+
+05-05-2025T15:05:22 - [TEST_STEP][PASSED] - click(findTestObject("Page_JIMMS - Dashboard/button_Log out")): Object: 'Object Repository/Page_JIMMS - Dashboard/button_Log out' is clicked on
+
+05-05-2025T15:05:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JIMMS - Dashboard/button_Log out' is clicked on
+
+05-05-2025T15:05:22 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+05-05-2025T15:05:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC02-Login fail with user and password not valid" time="12.358" classname="Test Cases/TC02-Login fail with user and password not valid" status="PASSED">
+         <system-out><![CDATA[05-05-2025T15:05:23 - [TEST_CASE][PASSED] - Test Cases/TC02-Login fail with user and password not valid: Test Cases/TC02-Login fail with user and password not valid
+
+05-05-2025T15:05:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-05-2025T15:05:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+05-05-2025T15:05:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-05-2025T15:05:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-05-2025T15:05:26 - [TEST_STEP][PASSED] - navigateToUrl("https://test-qa.jasamarga.co.id/login"): Navigate to 'https://test-qa.jasamarga.co.id/login' successfully
+
+05-05-2025T15:05:32 - [MESSAGE][PASSED] - Navigate to 'https://test-qa.jasamarga.co.id/login' successfully
+
+05-05-2025T15:05:32 - [TEST_STEP][PASSED] - setText(findTestObject("Page_JIMMS - Sign In/input_Username"), "Admin"): Text 'Admin' is set on object 'Object Repository/Page_JIMMS - Sign In/input_Username'
+
+05-05-2025T15:05:33 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Page_JIMMS - Sign In/input_Username'
+
+05-05-2025T15:05:33 - [TEST_STEP][PASSED] - setText(findTestObject("Page_JIMMS - Sign In/input_Password"), "123"): Text '123' is set on object 'Object Repository/Page_JIMMS - Sign In/input_Password'
+
+05-05-2025T15:05:34 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Page_JIMMS - Sign In/input_Password'
+
+05-05-2025T15:05:34 - [TEST_STEP][PASSED] - click(findTestObject("Page_JIMMS - Sign In/button_Login")): Object: 'Object Repository/Page_JIMMS - Sign In/button_Login' is clicked on
+
+05-05-2025T15:05:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JIMMS - Sign In/button_Login' is clicked on
+
+05-05-2025T15:05:34 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_JIMMS - Sign In/validation_gagallogin"), 0): Object 'Object Repository/Page_JIMMS - Sign In/validation_gagallogin' is present
+
+05-05-2025T15:05:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+05-05-2025T15:05:35 - [MESSAGE][PASSED] - Object 'Object Repository/Page_JIMMS - Sign In/validation_gagallogin' is present
+
+05-05-2025T15:05:35 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+05-05-2025T15:05:35 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC03-Success add master data" time="35.687" classname="Test Cases/TC03-Success add master data" status="PASSED">
+         <system-out><![CDATA[05-05-2025T15:05:35 - [TEST_CASE][PASSED] - Test Cases/TC03-Success add master data: Test Cases/TC03-Success add master data
+
+05-05-2025T15:05:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-05-2025T15:05:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+05-05-2025T15:05:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-05-2025T15:05:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-05-2025T15:05:38 - [TEST_STEP][PASSED] - navigateToUrl("https://test-qa.jasamarga.co.id/login"): Navigate to 'https://test-qa.jasamarga.co.id/login' successfully
+
+05-05-2025T15:05:42 - [MESSAGE][PASSED] - Navigate to 'https://test-qa.jasamarga.co.id/login' successfully
+
+05-05-2025T15:05:42 - [TEST_STEP][PASSED] - setText(findTestObject("Page_JIMMS - Sign In/input_Username"), "admin"): Text 'admin' is set on object 'Object Repository/Page_JIMMS - Sign In/input_Username'
+
+05-05-2025T15:05:43 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_JIMMS - Sign In/input_Username'
+
+05-05-2025T15:05:43 - [TEST_STEP][PASSED] - setText(findTestObject("Page_JIMMS - Sign In/input_Password"), "123"): Text '123' is set on object 'Object Repository/Page_JIMMS - Sign In/input_Password'
+
+05-05-2025T15:05:44 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Page_JIMMS - Sign In/input_Password'
+
+05-05-2025T15:05:44 - [TEST_STEP][PASSED] - click(findTestObject("Page_JIMMS - Sign In/button_Login")): Object: 'Object Repository/Page_JIMMS - Sign In/button_Login' is clicked on
+
+05-05-2025T15:05:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JIMMS - Sign In/button_Login' is clicked on
+
+05-05-2025T15:05:44 - [TEST_STEP][PASSED] - click(findTestObject("Page_JIMMS - Dashboard/button_settings")): Object: 'Object Repository/Page_JIMMS - Dashboard/button_settings' is clicked on
+
+05-05-2025T15:05:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JIMMS - Dashboard/button_settings' is clicked on
+
+05-05-2025T15:05:48 - [TEST_STEP][PASSED] - click(findTestObject("Page_JIMMS - Dashboard/master_data")): Object: 'Object Repository/Page_JIMMS - Dashboard/master_data' is clicked on
+
+05-05-2025T15:05:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JIMMS - Dashboard/master_data' is clicked on
+
+05-05-2025T15:05:48 - [TEST_STEP][PASSED] - click(findTestObject("Page_JIMMS - Dashboard/ruas")): Object: 'Object Repository/Page_JIMMS - Dashboard/ruas' is clicked on
+
+05-05-2025T15:05:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JIMMS - Dashboard/ruas' is clicked on
+
+05-05-2025T15:05:49 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+05-05-2025T15:05:55 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+05-05-2025T15:05:55 - [TEST_STEP][PASSED] - click(findTestObject("Page_JIMMS - Ruas/add_data")): Object: 'Object Repository/Page_JIMMS - Ruas/add_data' is clicked on
+
+05-05-2025T15:05:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JIMMS - Ruas/add_data' is clicked on
+
+05-05-2025T15:05:55 - [TEST_STEP][PASSED] - setText(findTestObject("Page_JIMMS - Ruas/1 input_Ruas"), "Katalon Arliandru"): Text 'Katalon Arliandru' is set on object 'Object Repository/Page_JIMMS - Ruas/1 input_Ruas'
+
+05-05-2025T15:05:59 - [MESSAGE][PASSED] - Text 'Katalon Arliandru' is set on object 'Object Repository/Page_JIMMS - Ruas/1 input_Ruas'
+
+05-05-2025T15:05:59 - [TEST_STEP][PASSED] - click(findTestObject("Page_JIMMS - Ruas/2 input_Unit Kerja"), STOP_ON_FAILURE): Object: 'Object Repository/Page_JIMMS - Ruas/2 input_Unit Kerja' is clicked on
+
+05-05-2025T15:05:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JIMMS - Ruas/2 input_Unit Kerja' is clicked on
+
+05-05-2025T15:05:59 - [TEST_STEP][PASSED] - click(findTestObject("Page_JIMMS - Ruas/dropdown_Unit IT")): Object: 'Object Repository/Page_JIMMS - Ruas/dropdown_Unit IT' is clicked on
+
+05-05-2025T15:06:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JIMMS - Ruas/dropdown_Unit IT' is clicked on
+
+05-05-2025T15:06:00 - [TEST_STEP][PASSED] - setText(findTestObject("Page_JIMMS - Ruas/3 input_Panjang (km)"), "100"): Text '100' is set on object 'Object Repository/Page_JIMMS - Ruas/3 input_Panjang (km)'
+
+05-05-2025T15:06:01 - [MESSAGE][PASSED] - Text '100' is set on object 'Object Repository/Page_JIMMS - Ruas/3 input_Panjang (km)'
+
+05-05-2025T15:06:01 - [TEST_STEP][PASSED] - setText(findTestObject("Page_JIMMS - Ruas/4 input_km awal"), "350"): Text '350' is set on object 'Object Repository/Page_JIMMS - Ruas/4 input_km awal'
+
+05-05-2025T15:06:02 - [MESSAGE][PASSED] - Text '350' is set on object 'Object Repository/Page_JIMMS - Ruas/4 input_km awal'
+
+05-05-2025T15:06:02 - [TEST_STEP][PASSED] - setText(findTestObject("Page_JIMMS - Ruas/5 input_km akhir"), "450"): Text '450' is set on object 'Object Repository/Page_JIMMS - Ruas/5 input_km akhir'
+
+05-05-2025T15:06:03 - [MESSAGE][PASSED] - Text '450' is set on object 'Object Repository/Page_JIMMS - Ruas/5 input_km akhir'
+
+05-05-2025T15:06:03 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_JIMMS - Ruas/button_Simpan"), 3): Scroll to object 'Object Repository/Page_JIMMS - Ruas/button_Simpan' successfully
+
+05-05-2025T15:06:03 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_JIMMS - Ruas/button_Simpan' successfully
+
+05-05-2025T15:06:03 - [TEST_STEP][PASSED] - click(findTestObject("Page_JIMMS - Ruas/button_Simpan")): Object: 'Object Repository/Page_JIMMS - Ruas/button_Simpan' is clicked on
+
+05-05-2025T15:06:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JIMMS - Ruas/button_Simpan' is clicked on
+
+05-05-2025T15:06:04 - [TEST_STEP][PASSED] - click(findTestObject("Page_JIMMS - Dashboard/button__profile")): Object: 'Object Repository/Page_JIMMS - Dashboard/button__profile' is clicked on
+
+05-05-2025T15:06:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JIMMS - Dashboard/button__profile' is clicked on
+
+05-05-2025T15:06:10 - [TEST_STEP][PASSED] - click(findTestObject("Page_JIMMS - Dashboard/button_Log out")): Object: 'Object Repository/Page_JIMMS - Dashboard/button_Log out' is clicked on
+
+05-05-2025T15:06:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JIMMS - Dashboard/button_Log out' is clicked on
+
+05-05-2025T15:06:11 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+05-05-2025T15:06:11 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC04-Fail add master data" time="29.202" classname="Test Cases/TC04-Fail add master data" status="PASSED">
+         <system-out><![CDATA[05-05-2025T15:06:11 - [TEST_CASE][PASSED] - Test Cases/TC04-Fail add master data: Test Cases/TC04-Fail add master data
+
+05-05-2025T15:06:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-05-2025T15:06:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+05-05-2025T15:06:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-05-2025T15:06:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-05-2025T15:06:14 - [TEST_STEP][PASSED] - navigateToUrl("https://test-qa.jasamarga.co.id/login"): Navigate to 'https://test-qa.jasamarga.co.id/login' successfully
+
+05-05-2025T15:06:16 - [MESSAGE][PASSED] - Navigate to 'https://test-qa.jasamarga.co.id/login' successfully
+
+05-05-2025T15:06:16 - [TEST_STEP][PASSED] - setText(findTestObject("Page_JIMMS - Sign In/input_Username"), "admin"): Text 'admin' is set on object 'Object Repository/Page_JIMMS - Sign In/input_Username'
+
+05-05-2025T15:06:17 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_JIMMS - Sign In/input_Username'
+
+05-05-2025T15:06:17 - [TEST_STEP][PASSED] - setText(findTestObject("Page_JIMMS - Sign In/input_Password"), "123"): Text '123' is set on object 'Object Repository/Page_JIMMS - Sign In/input_Password'
+
+05-05-2025T15:06:18 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Page_JIMMS - Sign In/input_Password'
+
+05-05-2025T15:06:18 - [TEST_STEP][PASSED] - click(findTestObject("Page_JIMMS - Sign In/button_Login")): Object: 'Object Repository/Page_JIMMS - Sign In/button_Login' is clicked on
+
+05-05-2025T15:06:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JIMMS - Sign In/button_Login' is clicked on
+
+05-05-2025T15:06:18 - [TEST_STEP][PASSED] - click(findTestObject("Page_JIMMS - Dashboard/button_settings")): Object: 'Object Repository/Page_JIMMS - Dashboard/button_settings' is clicked on
+
+05-05-2025T15:06:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JIMMS - Dashboard/button_settings' is clicked on
+
+05-05-2025T15:06:26 - [TEST_STEP][PASSED] - click(findTestObject("Page_JIMMS - Dashboard/master_data")): Object: 'Object Repository/Page_JIMMS - Dashboard/master_data' is clicked on
+
+05-05-2025T15:06:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JIMMS - Dashboard/master_data' is clicked on
+
+05-05-2025T15:06:27 - [TEST_STEP][PASSED] - click(findTestObject("Page_JIMMS - Dashboard/ruas")): Object: 'Object Repository/Page_JIMMS - Dashboard/ruas' is clicked on
+
+05-05-2025T15:06:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JIMMS - Dashboard/ruas' is clicked on
+
+05-05-2025T15:06:28 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+05-05-2025T15:06:33 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+05-05-2025T15:06:33 - [TEST_STEP][PASSED] - click(findTestObject("Page_JIMMS - Ruas/add_data")): Object: 'Object Repository/Page_JIMMS - Ruas/add_data' is clicked on
+
+05-05-2025T15:06:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JIMMS - Ruas/add_data' is clicked on
+
+05-05-2025T15:06:34 - [TEST_STEP][PASSED] - setText(findTestObject("Page_JIMMS - Ruas/1 input_Ruas"), ""): Text '' is set on object 'Object Repository/Page_JIMMS - Ruas/1 input_Ruas'
+
+05-05-2025T15:06:35 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_JIMMS - Ruas/1 input_Ruas'
+
+05-05-2025T15:06:35 - [TEST_STEP][PASSED] - click(findTestObject("Page_JIMMS - Ruas/2 input_Unit Kerja"), STOP_ON_FAILURE): Object: 'Object Repository/Page_JIMMS - Ruas/2 input_Unit Kerja' is clicked on
+
+05-05-2025T15:06:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JIMMS - Ruas/2 input_Unit Kerja' is clicked on
+
+05-05-2025T15:06:35 - [TEST_STEP][PASSED] - click(findTestObject("Page_JIMMS - Ruas/dropdown_Unit IT")): Object: 'Object Repository/Page_JIMMS - Ruas/dropdown_Unit IT' is clicked on
+
+05-05-2025T15:06:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JIMMS - Ruas/dropdown_Unit IT' is clicked on
+
+05-05-2025T15:06:36 - [TEST_STEP][PASSED] - setText(findTestObject("Page_JIMMS - Ruas/3 input_Panjang (km)"), "100"): Text '100' is set on object 'Object Repository/Page_JIMMS - Ruas/3 input_Panjang (km)'
+
+05-05-2025T15:06:37 - [MESSAGE][PASSED] - Text '100' is set on object 'Object Repository/Page_JIMMS - Ruas/3 input_Panjang (km)'
+
+05-05-2025T15:06:37 - [TEST_STEP][PASSED] - setText(findTestObject("Page_JIMMS - Ruas/4 input_km awal"), "350"): Text '350' is set on object 'Object Repository/Page_JIMMS - Ruas/4 input_km awal'
+
+05-05-2025T15:06:38 - [MESSAGE][PASSED] - Text '350' is set on object 'Object Repository/Page_JIMMS - Ruas/4 input_km awal'
+
+05-05-2025T15:06:38 - [TEST_STEP][PASSED] - setText(findTestObject("Page_JIMMS - Ruas/5 input_km akhir"), "450"): Text '450' is set on object 'Object Repository/Page_JIMMS - Ruas/5 input_km akhir'
+
+05-05-2025T15:06:39 - [MESSAGE][PASSED] - Text '450' is set on object 'Object Repository/Page_JIMMS - Ruas/5 input_km akhir'
+
+05-05-2025T15:06:39 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_JIMMS - Ruas/button_Simpan"), 3): Scroll to object 'Object Repository/Page_JIMMS - Ruas/button_Simpan' successfully
+
+05-05-2025T15:06:39 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_JIMMS - Ruas/button_Simpan' successfully
+
+05-05-2025T15:06:39 - [TEST_STEP][PASSED] - click(findTestObject("Page_JIMMS - Ruas/button_Simpan")): Object: 'Object Repository/Page_JIMMS - Ruas/button_Simpan' is clicked on
+
+05-05-2025T15:06:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_JIMMS - Ruas/button_Simpan' is clicked on
+
+05-05-2025T15:06:40 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+05-05-2025T15:06:40 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[05-05-2025T15:05:03 - [TEST_SUITE][PASSED] - JIMMS: Test Cases/TC04-Fail add master data]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

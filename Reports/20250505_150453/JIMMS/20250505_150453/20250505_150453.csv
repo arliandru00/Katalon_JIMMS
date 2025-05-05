@@ -1,0 +1,66 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+JIMMS,Chrome 133.0.6943.127,,,05-05-2025 15:05:03,05-05-2025 15:06:40,1m - 37.342s,PASSED
+,,,,,,,
+Test Cases/TC01-Login success with user and password valid,Chrome 133.0.6943.127,,,05-05-2025 15:05:04,05-05-2025 15:05:23,19.485s,PASSED
+"openBrowser("""")",Chrome 133.0.6943.127,,,05-05-2025 15:05:04,05-05-2025 15:05:11,7.058s,PASSED
+"navigateToUrl(""https://test-qa.jasamarga.co.id/login"")",Chrome 133.0.6943.127,,,05-05-2025 15:05:11,05-05-2025 15:05:13,1.299s,PASSED
+"setText(findTestObject(""Page_JIMMS - Sign In/input_Username""), ""admin"")",Chrome 133.0.6943.127,,,05-05-2025 15:05:13,05-05-2025 15:05:15,1.860s,PASSED
+"setText(findTestObject(""Page_JIMMS - Sign In/input_Password""), ""123"")",Chrome 133.0.6943.127,,,05-05-2025 15:05:15,05-05-2025 15:05:16,1.003s,PASSED
+"click(findTestObject(""Page_JIMMS - Sign In/button_Login""))",Chrome 133.0.6943.127,,,05-05-2025 15:05:16,05-05-2025 15:05:16,0.630s,PASSED
+"verifyElementPresent(findTestObject(""Page_JIMMS - Dashboard/img_JIMMS""), 5)",Chrome 133.0.6943.127,,,05-05-2025 15:05:16,05-05-2025 15:05:20,4.230s,PASSED
+"click(findTestObject(""Page_JIMMS - Dashboard/button__profile""))",Chrome 133.0.6943.127,,,05-05-2025 15:05:20,05-05-2025 15:05:22,1.246s,PASSED
+"click(findTestObject(""Page_JIMMS - Dashboard/button_Log out""))",Chrome 133.0.6943.127,,,05-05-2025 15:05:22,05-05-2025 15:05:22,0.656s,PASSED
+closeBrowser(),Chrome 133.0.6943.127,,,05-05-2025 15:05:22,05-05-2025 15:05:23,0.800s,PASSED
+,,,,,,,
+Test Cases/TC02-Login fail with user and password not valid,Chrome 133.0.6943.127,,,05-05-2025 15:05:23,05-05-2025 15:05:35,12.358s,PASSED
+"openBrowser("""")",Chrome 133.0.6943.127,,,05-05-2025 15:05:23,05-05-2025 15:05:26,2.306s,PASSED
+"navigateToUrl(""https://test-qa.jasamarga.co.id/login"")",Chrome 133.0.6943.127,,,05-05-2025 15:05:26,05-05-2025 15:05:32,5.846s,PASSED
+"setText(findTestObject(""Page_JIMMS - Sign In/input_Username""), ""Admin"")",Chrome 133.0.6943.127,,,05-05-2025 15:05:32,05-05-2025 15:05:33,1.175s,PASSED
+"setText(findTestObject(""Page_JIMMS - Sign In/input_Password""), ""123"")",Chrome 133.0.6943.127,,,05-05-2025 15:05:33,05-05-2025 15:05:34,0.956s,PASSED
+"click(findTestObject(""Page_JIMMS - Sign In/button_Login""))",Chrome 133.0.6943.127,,,05-05-2025 15:05:34,05-05-2025 15:05:34,0.471s,PASSED
+"verifyElementPresent(findTestObject(""Page_JIMMS - Sign In/validation_gagallogin""), 0)",Chrome 133.0.6943.127,,,05-05-2025 15:05:34,05-05-2025 15:05:35,0.876s,PASSED
+closeBrowser(),Chrome 133.0.6943.127,,,05-05-2025 15:05:35,05-05-2025 15:05:35,0.439s,PASSED
+,,,,,,,
+Test Cases/TC03-Success add master data,Chrome 133.0.6943.127,,,05-05-2025 15:05:35,05-05-2025 15:06:11,35.687s,PASSED
+"openBrowser("""")",Chrome 133.0.6943.127,,,05-05-2025 15:05:36,05-05-2025 15:05:38,2.105s,PASSED
+"navigateToUrl(""https://test-qa.jasamarga.co.id/login"")",Chrome 133.0.6943.127,,,05-05-2025 15:05:38,05-05-2025 15:05:42,3.886s,PASSED
+"setText(findTestObject(""Page_JIMMS - Sign In/input_Username""), ""admin"")",Chrome 133.0.6943.127,,,05-05-2025 15:05:42,05-05-2025 15:05:43,1.056s,PASSED
+"setText(findTestObject(""Page_JIMMS - Sign In/input_Password""), ""123"")",Chrome 133.0.6943.127,,,05-05-2025 15:05:43,05-05-2025 15:05:44,0.805s,PASSED
+"click(findTestObject(""Page_JIMMS - Sign In/button_Login""))",Chrome 133.0.6943.127,,,05-05-2025 15:05:44,05-05-2025 15:05:44,0.529s,PASSED
+"click(findTestObject(""Page_JIMMS - Dashboard/button_settings""))",Chrome 133.0.6943.127,,,05-05-2025 15:05:44,05-05-2025 15:05:48,3.349s,PASSED
+"click(findTestObject(""Page_JIMMS - Dashboard/master_data""))",Chrome 133.0.6943.127,,,05-05-2025 15:05:48,05-05-2025 15:05:48,0.662s,PASSED
+"click(findTestObject(""Page_JIMMS - Dashboard/ruas""))",Chrome 133.0.6943.127,,,05-05-2025 15:05:48,05-05-2025 15:05:49,0.929s,PASSED
+delay(5),Chrome 133.0.6943.127,,,05-05-2025 15:05:49,05-05-2025 15:05:55,5.405s,PASSED
+"click(findTestObject(""Page_JIMMS - Ruas/add_data""))",Chrome 133.0.6943.127,,,05-05-2025 15:05:55,05-05-2025 15:05:55,0.724s,PASSED
+"setText(findTestObject(""Page_JIMMS - Ruas/1 input_Ruas""), ""Katalon Arliandru"")",Chrome 133.0.6943.127,,,05-05-2025 15:05:55,05-05-2025 15:05:59,3.243s,PASSED
+"click(findTestObject(""Page_JIMMS - Ruas/2 input_Unit Kerja""), STOP_ON_FAILURE)",Chrome 133.0.6943.127,,,05-05-2025 15:05:59,05-05-2025 15:05:59,0.714s,PASSED
+"click(findTestObject(""Page_JIMMS - Ruas/dropdown_Unit IT""))",Chrome 133.0.6943.127,,,05-05-2025 15:05:59,05-05-2025 15:06:00,0.673s,PASSED
+"setText(findTestObject(""Page_JIMMS - Ruas/3 input_Panjang (km)""), ""100"")",Chrome 133.0.6943.127,,,05-05-2025 15:06:00,05-05-2025 15:06:01,1.088s,PASSED
+"setText(findTestObject(""Page_JIMMS - Ruas/4 input_km awal""), ""350"")",Chrome 133.0.6943.127,,,05-05-2025 15:06:01,05-05-2025 15:06:02,1.021s,PASSED
+"setText(findTestObject(""Page_JIMMS - Ruas/5 input_km akhir""), ""450"")",Chrome 133.0.6943.127,,,05-05-2025 15:06:02,05-05-2025 15:06:03,1.039s,PASSED
+"scrollToElement(findTestObject(""Page_JIMMS - Ruas/button_Simpan""), 3)",Chrome 133.0.6943.127,,,05-05-2025 15:06:03,05-05-2025 15:06:03,0.359s,PASSED
+"click(findTestObject(""Page_JIMMS - Ruas/button_Simpan""))",Chrome 133.0.6943.127,,,05-05-2025 15:06:03,05-05-2025 15:06:04,0.526s,PASSED
+"click(findTestObject(""Page_JIMMS - Dashboard/button__profile""))",Chrome 133.0.6943.127,,,05-05-2025 15:06:04,05-05-2025 15:06:10,5.998s,PASSED
+"click(findTestObject(""Page_JIMMS - Dashboard/button_Log out""))",Chrome 133.0.6943.127,,,05-05-2025 15:06:10,05-05-2025 15:06:11,0.658s,PASSED
+closeBrowser(),Chrome 133.0.6943.127,,,05-05-2025 15:06:11,05-05-2025 15:06:11,0.489s,PASSED
+,,,,,,,
+Test Cases/TC04-Fail add master data,Chrome 133.0.6943.127,,,05-05-2025 15:06:11,05-05-2025 15:06:40,29.202s,PASSED
+"openBrowser("""")",Chrome 133.0.6943.127,,,05-05-2025 15:06:11,05-05-2025 15:06:14,2.244s,PASSED
+"navigateToUrl(""https://test-qa.jasamarga.co.id/login"")",Chrome 133.0.6943.127,,,05-05-2025 15:06:14,05-05-2025 15:06:16,2.183s,PASSED
+"setText(findTestObject(""Page_JIMMS - Sign In/input_Username""), ""admin"")",Chrome 133.0.6943.127,,,05-05-2025 15:06:16,05-05-2025 15:06:17,1.044s,PASSED
+"setText(findTestObject(""Page_JIMMS - Sign In/input_Password""), ""123"")",Chrome 133.0.6943.127,,,05-05-2025 15:06:17,05-05-2025 15:06:18,0.852s,PASSED
+"click(findTestObject(""Page_JIMMS - Sign In/button_Login""))",Chrome 133.0.6943.127,,,05-05-2025 15:06:18,05-05-2025 15:06:18,0.519s,PASSED
+"click(findTestObject(""Page_JIMMS - Dashboard/button_settings""))",Chrome 133.0.6943.127,,,05-05-2025 15:06:18,05-05-2025 15:06:26,7.776s,PASSED
+"click(findTestObject(""Page_JIMMS - Dashboard/master_data""))",Chrome 133.0.6943.127,,,05-05-2025 15:06:26,05-05-2025 15:06:27,0.676s,PASSED
+"click(findTestObject(""Page_JIMMS - Dashboard/ruas""))",Chrome 133.0.6943.127,,,05-05-2025 15:06:27,05-05-2025 15:06:28,1.261s,PASSED
+delay(5),Chrome 133.0.6943.127,,,05-05-2025 15:06:28,05-05-2025 15:06:33,5.031s,PASSED
+"click(findTestObject(""Page_JIMMS - Ruas/add_data""))",Chrome 133.0.6943.127,,,05-05-2025 15:06:33,05-05-2025 15:06:34,0.591s,PASSED
+"setText(findTestObject(""Page_JIMMS - Ruas/1 input_Ruas""), """")",Chrome 133.0.6943.127,,,05-05-2025 15:06:34,05-05-2025 15:06:35,1.119s,PASSED
+"click(findTestObject(""Page_JIMMS - Ruas/2 input_Unit Kerja""), STOP_ON_FAILURE)",Chrome 133.0.6943.127,,,05-05-2025 15:06:35,05-05-2025 15:06:35,0.494s,PASSED
+"click(findTestObject(""Page_JIMMS - Ruas/dropdown_Unit IT""))",Chrome 133.0.6943.127,,,05-05-2025 15:06:35,05-05-2025 15:06:36,0.645s,PASSED
+"setText(findTestObject(""Page_JIMMS - Ruas/3 input_Panjang (km)""), ""100"")",Chrome 133.0.6943.127,,,05-05-2025 15:06:36,05-05-2025 15:06:37,0.997s,PASSED
+"setText(findTestObject(""Page_JIMMS - Ruas/4 input_km awal""), ""350"")",Chrome 133.0.6943.127,,,05-05-2025 15:06:37,05-05-2025 15:06:38,1.003s,PASSED
+"setText(findTestObject(""Page_JIMMS - Ruas/5 input_km akhir""), ""450"")",Chrome 133.0.6943.127,,,05-05-2025 15:06:38,05-05-2025 15:06:39,0.990s,PASSED
+"scrollToElement(findTestObject(""Page_JIMMS - Ruas/button_Simpan""), 3)",Chrome 133.0.6943.127,,,05-05-2025 15:06:39,05-05-2025 15:06:39,0.351s,PASSED
+"click(findTestObject(""Page_JIMMS - Ruas/button_Simpan""))",Chrome 133.0.6943.127,,,05-05-2025 15:06:39,05-05-2025 15:06:40,0.501s,PASSED
+closeBrowser(),Chrome 133.0.6943.127,,,05-05-2025 15:06:40,05-05-2025 15:06:40,0.591s,PASSED
