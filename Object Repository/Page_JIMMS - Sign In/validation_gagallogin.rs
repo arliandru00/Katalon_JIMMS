@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>validation_gagallogin</name>
+   <tag></tag>
+   <elementGuidId>1dd5492d-1f88-4df4-b258-043507712207</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.mantine-Text-root.mantine-Notification-description.mantine-j5cdsd</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@class=&quot;mantine-Text-root mantine-Notification-title mantine-3gllu7&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>bc62d028-600f-4ee6-a9e3-5128842a0148</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mantine-Text-root mantine-Notification-description mantine-j5cdsd</value>
+      <webElementGuid>76da5aff-58e0-4c60-9f95-45e587b54a67</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Harap periksa kembali username dan password anda</value>
+      <webElementGuid>c9d76e6d-db2a-481d-8a5f-5462571e1e0e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mantine-2y4x1ja8q&quot;)/div[@class=&quot;mantine-1vgh7sg mantine-Notification-body&quot;]/div[@class=&quot;mantine-Text-root mantine-Notification-description mantine-j5cdsd&quot;]</value>
+      <webElementGuid>f773a3d0-9b59-4eb7-8378-9b1cb60235fa</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='mantine-2y4x1ja8q']/div[2]/div[2]</value>
+      <webElementGuid>b0b46d19-4287-4be9-8d3a-d47ce48112f6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='GAGAL'])[1]/following::div[1]</value>
+      <webElementGuid>73eaac42-4638-48f8-9c41-01a477062784</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='© Copyright 2023. PT Jasa Marga (Persero) Tbk'])[1]/following::div[18]</value>
+      <webElementGuid>c31d1aec-268c-40e1-8258-8bbeac697dc0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Harap periksa kembali username dan password anda']/parent::*</value>
+      <webElementGuid>d63f0bba-ac4e-4a22-b5f3-34014e23437d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]</value>
+      <webElementGuid>6e66f6c3-b154-4a94-9fa1-f09d7629f4c6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Harap periksa kembali username dan password anda' or . = 'Harap periksa kembali username dan password anda')]</value>
+      <webElementGuid>ecdba797-c94c-41de-a126-1d339082ac4a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

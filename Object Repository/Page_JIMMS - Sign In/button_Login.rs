@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Login</name>
+   <tag></tag>
+   <elementGuidId>fdd19281-b840-49f2-888a-fd16b1ac9fd2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.mantine-1wpc1xj.mantine-Button-inner</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div/div[3]/div/form/div/button/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>b25f9304-fa9f-4736-a3f5-f58528f9d4e1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mantine-1wpc1xj mantine-Button-inner</value>
+      <webElementGuid>982076ae-903c-4153-baf2-cd09acb5a378</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Masuk</value>
+      <webElementGuid>02de7e0b-904c-4ac9-bbdb-49d43be6a476</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[1]/div[@class=&quot;mantine-671rnb&quot;]/div[@class=&quot;mantine-rqphh3&quot;]/div[@class=&quot;mantine-gdoscr&quot;]/form[1]/div[@class=&quot;mantine-g3n2pl&quot;]/button[@class=&quot;mantine-UnstyledButton-root mantine-Button-root mantine-1ywwb6v&quot;]/div[@class=&quot;mantine-1wpc1xj mantine-Button-inner&quot;]</value>
+      <webElementGuid>47b8f237-43ff-4bb9-8da7-2e399745b524</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div/div[3]/div/form/div/button/div</value>
+      <webElementGuid>7da3f87c-3609-49ee-a6eb-47ca5a04935e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::div[4]</value>
+      <webElementGuid>bd9af0ad-18f6-4cee-827c-7e0a575d6097</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Username'])[1]/following::div[6]</value>
+      <webElementGuid>5f2334b3-7c85-4fd7-8d2e-f185d3e0f59a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='© Copyright 2023. PT Jasa Marga (Persero) Tbk'])[1]/preceding::div[1]</value>
+      <webElementGuid>32e580ae-91bb-40af-aa22-768c8baad9f1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button/div</value>
+      <webElementGuid>b899eadd-84f2-47eb-b51d-284cd84d789e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Masuk' or . = 'Masuk')]</value>
+      <webElementGuid>813f69ff-cff5-473e-aee8-775b5f81b7c9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

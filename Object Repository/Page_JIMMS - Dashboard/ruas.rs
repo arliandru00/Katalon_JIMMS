@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ruas</name>
+   <tag></tag>
+   <elementGuidId>fd72de2f-bcb4-4293-9b3e-37f03eb38107</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.mantine-UnstyledButton-root.mantine-NavLink-root.mantine-fp63oe > span.mantine-dstkpx.mantine-NavLink-body</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[(text() = 'Ruas' or . = 'Ruas')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>86771506-bf4a-4767-a72b-08be6b54d7dd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mantine-dstkpx mantine-NavLink-body</value>
+      <webElementGuid>e71b58ca-dd0c-4e94-8917-295d115a9f90</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Ruas</value>
+      <webElementGuid>f38d3a1c-d224-47df-9677-172b439685b8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mantine-4vlq1abi9-dropdown&quot;)/div[1]/div[@class=&quot;mantine-1avyp1d&quot;]/div[1]/div[@class=&quot;mantine-1umouvl mantine-NavLink-children&quot;]/div[@class=&quot;mantine-ScrollArea-root mantine-mohg2k&quot;]/div[@class=&quot;mantine-b6zkvl mantine-ScrollArea-viewport&quot;]/div[1]/a[1]/button[@class=&quot;mantine-UnstyledButton-root mantine-NavLink-root mantine-fp63oe&quot;]/span[@class=&quot;mantine-dstkpx mantine-NavLink-body&quot;]</value>
+      <webElementGuid>1490175f-276a-4a87-992a-527815cb42b5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='mantine-4vlq1abi9-dropdown']/div/div[2]/div/div/div/div/div/a/button/span[2]</value>
+      <webElementGuid>05bb3a8f-6a35-4f22-bfdc-fa04b91ecc7c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Master Data'])[1]/following::span[4]</value>
+      <webElementGuid>5b8a4147-6839-45ee-8a35-e2b17d7ace86</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Administrator'])[1]/following::span[7]</value>
+      <webElementGuid>70ae0dcd-4bfd-42af-abf2-efc851ccddb6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a/button/span[2]</value>
+      <webElementGuid>da1ccfa1-09c2-4e46-81a0-650d16c50ceb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Ruas' or . = 'Ruas')]</value>
+      <webElementGuid>81ca745e-db0b-46fa-a355-f02cfc09a016</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
