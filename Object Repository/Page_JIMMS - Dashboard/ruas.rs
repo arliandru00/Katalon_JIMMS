@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//span[(text() = 'Ruas' or . = 'Ruas')]</value>
+         <value>//div[@class=&quot;mantine-1umouvl mantine-NavLink-children&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>86771506-bf4a-4767-a72b-08be6b54d7dd</webElementGuid>
+      <webElementGuid>788bd305-3541-4258-8924-dd889f142b1d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mantine-dstkpx mantine-NavLink-body</value>
-      <webElementGuid>e71b58ca-dd0c-4e94-8917-295d115a9f90</webElementGuid>
+      <webElementGuid>d8e5e474-69a9-489b-962f-b5e5319d5b4c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Ruas</value>
-      <webElementGuid>f38d3a1c-d224-47df-9677-172b439685b8</webElementGuid>
+      <webElementGuid>76065a67-3404-4bed-beb7-8564d67ab4e0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mantine-4vlq1abi9-dropdown&quot;)/div[1]/div[@class=&quot;mantine-1avyp1d&quot;]/div[1]/div[@class=&quot;mantine-1umouvl mantine-NavLink-children&quot;]/div[@class=&quot;mantine-ScrollArea-root mantine-mohg2k&quot;]/div[@class=&quot;mantine-b6zkvl mantine-ScrollArea-viewport&quot;]/div[1]/a[1]/button[@class=&quot;mantine-UnstyledButton-root mantine-NavLink-root mantine-fp63oe&quot;]/span[@class=&quot;mantine-dstkpx mantine-NavLink-body&quot;]</value>
-      <webElementGuid>1490175f-276a-4a87-992a-527815cb42b5</webElementGuid>
+      <webElementGuid>a7064cee-642c-47cf-8208-e39682a86376</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='mantine-4vlq1abi9-dropdown']/div/div[2]/div/div/div/div/div/a/button/span[2]</value>
-      <webElementGuid>05bb3a8f-6a35-4f22-bfdc-fa04b91ecc7c</webElementGuid>
+      <webElementGuid>e269b6ff-9ef4-4bb5-8855-0766186e659c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Master Data'])[1]/following::span[4]</value>
-      <webElementGuid>5b8a4147-6839-45ee-8a35-e2b17d7ace86</webElementGuid>
+      <webElementGuid>adbf19a6-c09d-4db0-a4b4-9657b5980e07</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Administrator'])[1]/following::span[7]</value>
-      <webElementGuid>70ae0dcd-4bfd-42af-abf2-efc851ccddb6</webElementGuid>
+      <webElementGuid>9e997cc6-daa0-4c09-b19f-32ab5b0e739c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a/button/span[2]</value>
-      <webElementGuid>da1ccfa1-09c2-4e46-81a0-650d16c50ceb</webElementGuid>
+      <webElementGuid>177f12da-de95-4861-8fe1-ed5baa12ac1b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,6 +87,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Ruas' or . = 'Ruas')]</value>
-      <webElementGuid>81ca745e-db0b-46fa-a355-f02cfc09a016</webElementGuid>
+      <webElementGuid>73539867-4520-48c0-8a37-b4ee298b2f09</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

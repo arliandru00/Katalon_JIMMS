@@ -1,0 +1,66 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+JIMMS,Firefox 138.0.1,,,17-05-2025 11:46:46,17-05-2025 11:48:46,2m - 0.827s,PASSED
+,,,,,,,
+Test Cases/TC01-Login success with user and password valid,Firefox 138.0.1,,,17-05-2025 11:46:46,17-05-2025 11:47:11,24.996s,PASSED
+"openBrowser("""")",Firefox 138.0.1,,,17-05-2025 11:46:47,17-05-2025 11:46:58,11.465s,PASSED
+"navigateToUrl(""https://test-qa.jasamarga.co.id/login"")",Firefox 138.0.1,,,17-05-2025 11:46:58,17-05-2025 11:47:01,2.309s,PASSED
+"setText(findTestObject(""Page_JIMMS - Sign In/input_Username""), ""admin"")",Firefox 138.0.1,,,17-05-2025 11:47:01,17-05-2025 11:47:02,1.554s,PASSED
+"setText(findTestObject(""Page_JIMMS - Sign In/input_Password""), ""123"")",Firefox 138.0.1,,,17-05-2025 11:47:02,17-05-2025 11:47:03,0.849s,PASSED
+"click(findTestObject(""Page_JIMMS - Sign In/button_Login""))",Firefox 138.0.1,,,17-05-2025 11:47:03,17-05-2025 11:47:04,0.788s,PASSED
+"verifyElementPresent(findTestObject(""Page_JIMMS - Dashboard/img_JIMMS""), 5)",Firefox 138.0.1,,,17-05-2025 11:47:04,17-05-2025 11:47:08,3.637s,PASSED
+"click(findTestObject(""Page_JIMMS - Dashboard/button__profile""))",Firefox 138.0.1,,,17-05-2025 11:47:08,17-05-2025 11:47:08,0.745s,PASSED
+"click(findTestObject(""Page_JIMMS - Dashboard/button_Log out""))",Firefox 138.0.1,,,17-05-2025 11:47:08,17-05-2025 11:47:09,0.609s,PASSED
+closeBrowser(),Firefox 138.0.1,,,17-05-2025 11:47:09,17-05-2025 11:47:11,2.178s,PASSED
+,,,,,,,
+Test Cases/TC02-Login fail with user and password not valid,Firefox 138.0.1,,,17-05-2025 11:47:11,17-05-2025 11:47:29,17.419s,PASSED
+"openBrowser("""")",Firefox 138.0.1,,,17-05-2025 11:47:12,17-05-2025 11:47:20,8.359s,PASSED
+"navigateToUrl(""https://test-qa.jasamarga.co.id/login"")",Firefox 138.0.1,,,17-05-2025 11:47:20,17-05-2025 11:47:24,3.755s,PASSED
+"setText(findTestObject(""Page_JIMMS - Sign In/input_Username""), ""Admin"")",Firefox 138.0.1,,,17-05-2025 11:47:24,17-05-2025 11:47:25,0.974s,PASSED
+"setText(findTestObject(""Page_JIMMS - Sign In/input_Password""), ""123"")",Firefox 138.0.1,,,17-05-2025 11:47:25,17-05-2025 11:47:25,0.687s,PASSED
+"click(findTestObject(""Page_JIMMS - Sign In/button_Login""))",Firefox 138.0.1,,,17-05-2025 11:47:25,17-05-2025 11:47:26,0.610s,PASSED
+"verifyElementPresent(findTestObject(""Page_JIMMS - Sign In/validation_gagallogin""), 0)",Firefox 138.0.1,,,17-05-2025 11:47:26,17-05-2025 11:47:27,0.495s,PASSED
+closeBrowser(),Firefox 138.0.1,,,17-05-2025 11:47:27,17-05-2025 11:47:29,2.057s,PASSED
+,,,,,,,
+Test Cases/TC03-Success add master data,Firefox 138.0.1,,,17-05-2025 11:47:29,17-05-2025 11:48:12,43.187s,PASSED
+"openBrowser("""")",Firefox 138.0.1,,,17-05-2025 11:47:29,17-05-2025 11:47:36,6.795s,PASSED
+"navigateToUrl(""https://test-qa.jasamarga.co.id/login"")",Firefox 138.0.1,,,17-05-2025 11:47:36,17-05-2025 11:47:40,3.950s,PASSED
+"setText(findTestObject(""Page_JIMMS - Sign In/input_Username""), ""admin"")",Firefox 138.0.1,,,17-05-2025 11:47:40,17-05-2025 11:47:41,0.966s,PASSED
+"setText(findTestObject(""Page_JIMMS - Sign In/input_Password""), ""123"")",Firefox 138.0.1,,,17-05-2025 11:47:41,17-05-2025 11:47:42,0.726s,PASSED
+"click(findTestObject(""Page_JIMMS - Sign In/button_Login""))",Firefox 138.0.1,,,17-05-2025 11:47:42,17-05-2025 11:47:42,0.697s,PASSED
+"click(findTestObject(""Page_JIMMS - Dashboard/button_settings""))",Firefox 138.0.1,,,17-05-2025 11:47:42,17-05-2025 11:47:46,3.723s,PASSED
+"click(findTestObject(""Page_JIMMS - Dashboard/master_data""))",Firefox 138.0.1,,,17-05-2025 11:47:46,17-05-2025 11:47:46,0.526s,PASSED
+"click(findTestObject(""Page_JIMMS - Dashboard/ruas""))",Firefox 138.0.1,,,17-05-2025 11:47:46,17-05-2025 11:47:47,0.900s,PASSED
+delay(5),Firefox 138.0.1,,,17-05-2025 11:47:47,17-05-2025 11:47:53,5.171s,PASSED
+"click(findTestObject(""Page_JIMMS - Ruas/add_data""))",Firefox 138.0.1,,,17-05-2025 11:47:53,17-05-2025 11:47:54,1.130s,PASSED
+"setText(findTestObject(""Page_JIMMS - Ruas/1 input_Ruas""), ""Katalon Arliandru 1.2"")",Firefox 138.0.1,,,17-05-2025 11:47:54,17-05-2025 11:47:57,3.106s,PASSED
+"click(findTestObject(""Page_JIMMS - Ruas/2 input_Unit Kerja""), STOP_ON_FAILURE)",Firefox 138.0.1,,,17-05-2025 11:47:57,17-05-2025 11:47:58,0.746s,PASSED
+"click(findTestObject(""Page_JIMMS - Ruas/dropdown_Unit IT""))",Firefox 138.0.1,,,17-05-2025 11:47:58,17-05-2025 11:47:59,0.992s,PASSED
+"setText(findTestObject(""Page_JIMMS - Ruas/3 input_Panjang (km)""), ""100"")",Firefox 138.0.1,,,17-05-2025 11:47:59,17-05-2025 11:48:00,1.032s,PASSED
+"setText(findTestObject(""Page_JIMMS - Ruas/4 input_km awal""), ""350"")",Firefox 138.0.1,,,17-05-2025 11:48:00,17-05-2025 11:48:01,1.218s,PASSED
+"setText(findTestObject(""Page_JIMMS - Ruas/5 input_km akhir""), ""450"")",Firefox 138.0.1,,,17-05-2025 11:48:01,17-05-2025 11:48:02,1.064s,PASSED
+"scrollToElement(findTestObject(""Page_JIMMS - Ruas/button_Simpan""), 3)",Firefox 138.0.1,,,17-05-2025 11:48:02,17-05-2025 11:48:02,0.361s,PASSED
+"click(findTestObject(""Page_JIMMS - Ruas/button_Simpan""))",Firefox 138.0.1,,,17-05-2025 11:48:02,17-05-2025 11:48:03,0.935s,PASSED
+"click(findTestObject(""Page_JIMMS - Dashboard/button__profile""))",Firefox 138.0.1,,,17-05-2025 11:48:03,17-05-2025 11:48:09,5.727s,PASSED
+"click(findTestObject(""Page_JIMMS - Dashboard/button_Log out""))",Firefox 138.0.1,,,17-05-2025 11:48:09,17-05-2025 11:48:09,0.638s,PASSED
+closeBrowser(),Firefox 138.0.1,,,17-05-2025 11:48:09,17-05-2025 11:48:12,2.314s,PASSED
+,,,,,,,
+Test Cases/TC04-Fail add master data,Firefox 138.0.1,,,17-05-2025 11:48:12,17-05-2025 11:48:46,34.642s,PASSED
+"openBrowser("""")",Firefox 138.0.1,,,17-05-2025 11:48:12,17-05-2025 11:48:20,7.379s,PASSED
+"navigateToUrl(""https://test-qa.jasamarga.co.id/login"")",Firefox 138.0.1,,,17-05-2025 11:48:20,17-05-2025 11:48:23,3.718s,PASSED
+"setText(findTestObject(""Page_JIMMS - Sign In/input_Username""), ""admin"")",Firefox 138.0.1,,,17-05-2025 11:48:23,17-05-2025 11:48:24,0.920s,PASSED
+"setText(findTestObject(""Page_JIMMS - Sign In/input_Password""), ""123"")",Firefox 138.0.1,,,17-05-2025 11:48:24,17-05-2025 11:48:25,0.734s,PASSED
+"click(findTestObject(""Page_JIMMS - Sign In/button_Login""))",Firefox 138.0.1,,,17-05-2025 11:48:25,17-05-2025 11:48:26,0.668s,PASSED
+"click(findTestObject(""Page_JIMMS - Dashboard/button_settings""))",Firefox 138.0.1,,,17-05-2025 11:48:26,17-05-2025 11:48:30,4.101s,PASSED
+"click(findTestObject(""Page_JIMMS - Dashboard/master_data""))",Firefox 138.0.1,,,17-05-2025 11:48:30,17-05-2025 11:48:30,0.592s,PASSED
+"click(findTestObject(""Page_JIMMS - Dashboard/ruas""))",Firefox 138.0.1,,,17-05-2025 11:48:30,17-05-2025 11:48:31,0.880s,PASSED
+delay(5),Firefox 138.0.1,,,17-05-2025 11:48:31,17-05-2025 11:48:36,5.010s,PASSED
+"click(findTestObject(""Page_JIMMS - Ruas/add_data""))",Firefox 138.0.1,,,17-05-2025 11:48:36,17-05-2025 11:48:37,0.937s,PASSED
+"setText(findTestObject(""Page_JIMMS - Ruas/1 input_Ruas""), """")",Firefox 138.0.1,,,17-05-2025 11:48:37,17-05-2025 11:48:38,1.036s,PASSED
+"click(findTestObject(""Page_JIMMS - Ruas/2 input_Unit Kerja""), STOP_ON_FAILURE)",Firefox 138.0.1,,,17-05-2025 11:48:38,17-05-2025 11:48:39,0.727s,PASSED
+"click(findTestObject(""Page_JIMMS - Ruas/dropdown_Unit IT""))",Firefox 138.0.1,,,17-05-2025 11:48:39,17-05-2025 11:48:40,0.770s,PASSED
+"setText(findTestObject(""Page_JIMMS - Ruas/3 input_Panjang (km)""), ""100"")",Firefox 138.0.1,,,17-05-2025 11:48:40,17-05-2025 11:48:41,1.046s,PASSED
+"setText(findTestObject(""Page_JIMMS - Ruas/4 input_km awal""), ""350"")",Firefox 138.0.1,,,17-05-2025 11:48:41,17-05-2025 11:48:42,1.078s,PASSED
+"setText(findTestObject(""Page_JIMMS - Ruas/5 input_km akhir""), ""450"")",Firefox 138.0.1,,,17-05-2025 11:48:42,17-05-2025 11:48:43,1.051s,PASSED
+"scrollToElement(findTestObject(""Page_JIMMS - Ruas/button_Simpan""), 3)",Firefox 138.0.1,,,17-05-2025 11:48:43,17-05-2025 11:48:43,0.309s,PASSED
+"click(findTestObject(""Page_JIMMS - Ruas/button_Simpan""))",Firefox 138.0.1,,,17-05-2025 11:48:43,17-05-2025 11:48:44,0.980s,PASSED
+closeBrowser(),Firefox 138.0.1,,,17-05-2025 11:48:44,17-05-2025 11:48:46,2.300s,PASSED

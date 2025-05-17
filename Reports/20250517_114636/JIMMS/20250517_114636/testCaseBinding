@@ -1,0 +1,4 @@
+{"testCaseName":"Test Cases/TC01-Login success with user and password valid","testCaseId":"Test Cases/TC01-Login success with user and password valid","iterationVariableName":""}
+{"testCaseName":"Test Cases/TC02-Login fail with user and password not valid","testCaseId":"Test Cases/TC02-Login fail with user and password not valid","iterationVariableName":""}
+{"testCaseName":"Test Cases/TC03-Success add master data","testCaseId":"Test Cases/TC03-Success add master data","iterationVariableName":""}
+{"testCaseName":"Test Cases/TC04-Fail add master data","testCaseId":"Test Cases/TC04-Fail add master data","iterationVariableName":""}

@@ -37,7 +37,7 @@ WebUI.delay(5)
 
 WebUI.click(findTestObject('Page_JIMMS - Ruas/add_data'))
 
-WebUI.setText(findTestObject('Page_JIMMS - Ruas/1 input_Ruas'), 'Katalon Arliandru')
+WebUI.setText(findTestObject('Page_JIMMS - Ruas/1 input_Ruas'), 'Katalon Arliandru 1.2')
 
 WebUI.click(findTestObject('Page_JIMMS - Ruas/2 input_Unit Kerja'), FailureHandling.STOP_ON_FAILURE)
 

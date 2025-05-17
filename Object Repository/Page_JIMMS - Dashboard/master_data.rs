@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Leaflet'])[1]/preceding::*[name()='svg'][2]</value>
+         <value>//button[@class=&quot;mantine-UnstyledButton-root mantine-NavLink-root mantine-1qst9u8&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>svg</value>
-      <webElementGuid>435ede59-f724-47e8-9faf-1e8920f6431b</webElementGuid>
+      <webElementGuid>54d0448a-cfb7-470a-91cd-0598fbecbe3a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>xmlns</name>
       <type>Main</type>
       <value>http://www.w3.org/2000/svg</value>
-      <webElementGuid>3e695d2a-0927-4e3f-a9ab-c4b2b18a884c</webElementGuid>
+      <webElementGuid>3eb57ef6-e6d0-46da-ad2b-a500127b4c4a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>width</name>
       <type>Main</type>
       <value>24</value>
-      <webElementGuid>2c1b7ee5-679e-4387-94f5-fbce6575d7ab</webElementGuid>
+      <webElementGuid>7cf00a9e-a1b5-416c-8ed6-0c36f8e602ef</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>height</name>
       <type>Main</type>
       <value>24</value>
-      <webElementGuid>3a5695d5-a067-47a8-a495-a0fb5a627c35</webElementGuid>
+      <webElementGuid>23854a92-ab23-459f-b932-ba14ef739d82</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>viewBox</name>
       <type>Main</type>
       <value>0 0 24 24</value>
-      <webElementGuid>7933ea41-3272-40d4-98c0-5c2e03c0d02b</webElementGuid>
+      <webElementGuid>148897a5-8fd3-431f-88b7-9aaee379ff86</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>fill</name>
       <type>Main</type>
       <value>none</value>
-      <webElementGuid>9a65e49b-92dc-4cf6-9c50-0956401ae47d</webElementGuid>
+      <webElementGuid>0bb51cc7-a5f4-495c-b9ba-4432f198008f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>stroke</name>
       <type>Main</type>
       <value>currentColor</value>
-      <webElementGuid>1d00a403-a39e-4c57-b10e-44fde5bc3d17</webElementGuid>
+      <webElementGuid>3de4420d-1180-4a10-aeab-e810da52f8f1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>stroke-width</name>
       <type>Main</type>
       <value>2</value>
-      <webElementGuid>95577595-432c-48c2-b26e-b468d5c126b0</webElementGuid>
+      <webElementGuid>2d4c3dd7-335d-4f5e-b9f0-95af8a48c9dd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>stroke-linecap</name>
       <type>Main</type>
       <value>round</value>
-      <webElementGuid>72034d40-1b41-46e5-acc8-80b57abcef40</webElementGuid>
+      <webElementGuid>81ab339c-88d3-4879-904e-90825af4e948</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>stroke-linejoin</name>
       <type>Main</type>
       <value>round</value>
-      <webElementGuid>cdfa8407-9133-4f69-9d8a-de62bee0181f</webElementGuid>
+      <webElementGuid>9af67234-4029-48ec-a57c-50c4ed9d4fe9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>class</name>
       <type>Main</type>
       <value>tabler-icon tabler-icon-settings</value>
-      <webElementGuid>b766fecd-8265-46b4-929e-fd61e6eba768</webElementGuid>
+      <webElementGuid>63e456d0-6cb8-43df-8df9-1a91d847c42f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -111,7 +111,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mantine-4vlq1abi9-target&quot;)/svg[@class=&quot;tabler-icon tabler-icon-settings&quot;]</value>
-      <webElementGuid>c0ad753b-808e-4222-b0dc-540677480129</webElementGuid>
+      <webElementGuid>7ca5e0ed-78a7-4c7a-83df-e907a14de64a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -119,6 +119,6 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Leaflet'])[1]/preceding::*[name()='svg'][2]</value>
-      <webElementGuid>db65f3eb-f886-4118-aa46-899967cd06bb</webElementGuid>
+      <webElementGuid>deee2b6b-27fd-4b1a-a346-e19ae696aa19</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

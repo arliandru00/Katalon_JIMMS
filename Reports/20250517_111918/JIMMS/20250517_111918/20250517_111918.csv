@@ -1,0 +1,41 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+JIMMS,Firefox 138.0.1,,,17-05-2025 11:19:32,17-05-2025 11:21:34,2m - 1.814s,FAILED
+,,,,,,,
+Test Cases/TC01-Login success with user and password valid,Firefox 138.0.1,,,17-05-2025 11:19:33,17-05-2025 11:20:04,31.790s,PASSED
+"openBrowser("""")",Firefox 138.0.1,,,17-05-2025 11:19:34,17-05-2025 11:19:48,14.697s,PASSED
+"navigateToUrl(""https://test-qa.jasamarga.co.id/login"")",Firefox 138.0.1,,,17-05-2025 11:19:48,17-05-2025 11:19:52,3.761s,PASSED
+"setText(findTestObject(""Page_JIMMS - Sign In/input_Username""), ""admin"")",Firefox 138.0.1,,,17-05-2025 11:19:52,17-05-2025 11:19:54,1.612s,PASSED
+"setText(findTestObject(""Page_JIMMS - Sign In/input_Password""), ""123"")",Firefox 138.0.1,,,17-05-2025 11:19:54,17-05-2025 11:19:55,0.981s,PASSED
+"click(findTestObject(""Page_JIMMS - Sign In/button_Login""))",Firefox 138.0.1,,,17-05-2025 11:19:55,17-05-2025 11:19:56,0.929s,PASSED
+"verifyElementPresent(findTestObject(""Page_JIMMS - Dashboard/img_JIMMS""), 5)",Firefox 138.0.1,,,17-05-2025 11:19:56,17-05-2025 11:20:00,4.069s,PASSED
+"click(findTestObject(""Page_JIMMS - Dashboard/button__profile""))",Firefox 138.0.1,,,17-05-2025 11:20:00,17-05-2025 11:20:01,0.960s,PASSED
+"click(findTestObject(""Page_JIMMS - Dashboard/button_Log out""))",Firefox 138.0.1,,,17-05-2025 11:20:01,17-05-2025 11:20:01,0.671s,PASSED
+closeBrowser(),Firefox 138.0.1,,,17-05-2025 11:20:01,17-05-2025 11:20:04,2.886s,PASSED
+,,,,,,,
+Test Cases/TC02-Login fail with user and password not valid,Firefox 138.0.1,,,17-05-2025 11:20:04,17-05-2025 11:20:23,18.387s,PASSED
+"openBrowser("""")",Firefox 138.0.1,,,17-05-2025 11:20:05,17-05-2025 11:20:13,8.204s,PASSED
+"navigateToUrl(""https://test-qa.jasamarga.co.id/login"")",Firefox 138.0.1,,,17-05-2025 11:20:13,17-05-2025 11:20:17,3.866s,PASSED
+"setText(findTestObject(""Page_JIMMS - Sign In/input_Username""), ""Admin"")",Firefox 138.0.1,,,17-05-2025 11:20:17,17-05-2025 11:20:18,1.117s,PASSED
+"setText(findTestObject(""Page_JIMMS - Sign In/input_Password""), ""123"")",Firefox 138.0.1,,,17-05-2025 11:20:18,17-05-2025 11:20:19,0.845s,PASSED
+"click(findTestObject(""Page_JIMMS - Sign In/button_Login""))",Firefox 138.0.1,,,17-05-2025 11:20:19,17-05-2025 11:20:20,0.700s,PASSED
+"verifyElementPresent(findTestObject(""Page_JIMMS - Sign In/validation_gagallogin""), 0)",Firefox 138.0.1,,,17-05-2025 11:20:20,17-05-2025 11:20:20,0.662s,PASSED
+closeBrowser(),Firefox 138.0.1,,,17-05-2025 11:20:20,17-05-2025 11:20:23,2.357s,PASSED
+,,,,,,,
+Test Cases/TC03-Success add master data,Firefox 138.0.1,,,17-05-2025 11:20:23,17-05-2025 11:21:14,51.667s,FAILED
+"openBrowser("""")",Firefox 138.0.1,,,17-05-2025 11:20:23,17-05-2025 11:20:32,8.666s,PASSED
+"navigateToUrl(""https://test-qa.jasamarga.co.id/login"")",Firefox 138.0.1,,,17-05-2025 11:20:32,17-05-2025 11:20:36,3.740s,PASSED
+"setText(findTestObject(""Page_JIMMS - Sign In/input_Username""), ""admin"")",Firefox 138.0.1,,,17-05-2025 11:20:36,17-05-2025 11:20:37,1.041s,PASSED
+"setText(findTestObject(""Page_JIMMS - Sign In/input_Password""), ""123"")",Firefox 138.0.1,,,17-05-2025 11:20:37,17-05-2025 11:20:38,0.751s,PASSED
+"click(findTestObject(""Page_JIMMS - Sign In/button_Login""))",Firefox 138.0.1,,,17-05-2025 11:20:38,17-05-2025 11:20:38,0.743s,PASSED
+"click(findTestObject(""Page_JIMMS - Dashboard/button_settings""))",Firefox 138.0.1,,,17-05-2025 11:20:38,17-05-2025 11:20:42,3.966s,PASSED
+"click(findTestObject(""Page_JIMMS - Dashboard/master_data""))",Firefox 138.0.1,,,17-05-2025 11:20:42,17-05-2025 11:20:43,0.702s,PASSED
+"click(findTestObject(""Page_JIMMS - Dashboard/ruas""))",Firefox 138.0.1,,,17-05-2025 11:20:43,17-05-2025 11:21:14,31.466s,FAILED
+,,,,,,,
+Test Cases/TC04-Fail add master data,Firefox 138.0.1,,,17-05-2025 11:21:14,17-05-2025 11:21:34,19.125s,FAILED
+"openBrowser("""")",Firefox 138.0.1,,,17-05-2025 11:21:15,17-05-2025 11:21:24,8.971s,PASSED
+"navigateToUrl(""https://test-qa.jasamarga.co.id/login"")",Firefox 138.0.1,,,17-05-2025 11:21:24,17-05-2025 11:21:28,3.846s,PASSED
+"setText(findTestObject(""Page_JIMMS - Sign In/input_Username""), ""admin"")",Firefox 138.0.1,,,17-05-2025 11:21:28,17-05-2025 11:21:29,0.848s,PASSED
+"setText(findTestObject(""Page_JIMMS - Sign In/input_Password""), ""123"")",Firefox 138.0.1,,,17-05-2025 11:21:29,17-05-2025 11:21:29,0.607s,PASSED
+"click(findTestObject(""Page_JIMMS - Sign In/button_Login""))",Firefox 138.0.1,,,17-05-2025 11:21:29,17-05-2025 11:21:30,0.580s,PASSED
+"click(findTestObject(""Page_JIMMS - Dashboard/button_settings""))",Firefox 138.0.1,,,17-05-2025 11:21:30,17-05-2025 11:21:33,3.124s,PASSED
+"click(findTestObject(""Page_JIMMS - Dashboard/ruas""))",Firefox 138.0.1,,,17-05-2025 11:21:33,17-05-2025 11:21:34,0.667s,FAILED
